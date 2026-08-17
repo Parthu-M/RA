@@ -1,0 +1,13 @@
+model,dataset,threshold
+SVM (RBF),Original (Imbalanced),0.15
+SVM (RBF),BorderlineSMOTE,0.15
+XGBoost,Original (Imbalanced),0.15
+XGBoost,BorderlineSMOTE,0.15
+EasyEnsemble,Intrinsic Balancing,0.5200000000000004
+TabNet,Original (Imbalanced),0.42000000000000026
+TabNet,BorderlineSMOTE,0.18000000000000002
+Hybrid (XGB+CatBoost),Original (Imbalanced),0.16
+Hybrid (XGB+CatBoost),BorderlineSMOTE,0.15
+BalancedRandomForest,Bootstrap Balancing,0.5200000000000004
+LightGBM (Focal Loss),Focal Objective Strategy,0.15
+RUSBoost,Sequential Boosting Balance,0.6900000000000005
